@@ -47,7 +47,7 @@ window.addEventListener('load', ()=>{
 	document.addEventListener('mousemove', (e)=>{
 		sketch(e,coord,w,c);
 	});
-	window.addEventListener('resize', resize);
+	// window.addEventListener('resize', resize);
 	
 });
 	
