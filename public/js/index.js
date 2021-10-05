@@ -20,7 +20,7 @@ window.addEventListener('load', ()=>{
 		back=c;
 	};
 
-
+    const nav=document.getElementById('nav');
 	document.getElementById('width').onchange=()=>{
 		// alert('hey');
 		w=document.getElementById('width').value;
@@ -57,6 +57,7 @@ const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 	
 function resize(){
+	 nav.style.width=window.innerWidth;
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 }
