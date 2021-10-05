@@ -1,4 +1,4 @@
-# myPaint
+# [myPaint](https://mypaintgsd.herokuapp.com/)
 
 A collaborative drawing app developed using web sockets
 
