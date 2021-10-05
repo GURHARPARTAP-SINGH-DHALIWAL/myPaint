@@ -6,15 +6,12 @@
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    width: 102%;
+    /* width: 100%; */
 }
 
 
 #canvas{
+  
     border: 5px dotted black;
 }
 
-#logo{
-    position: relative;
-    left: 1%;
-}

@@ -47,7 +47,7 @@ window.addEventListener('load', ()=>{
 	document.addEventListener('mousemove', (e)=>{
 		sketch(e,coord,w,c);
 	});
-	// window.addEventListener('resize', resize);
+	//  window.addEventListener('resize', resize);
 	
 });
 	
@@ -57,7 +57,7 @@ const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 	
 function resize(){
-	 nav.style.width=window.innerWidth;
+ nav.style.width=window.innerWidth;
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 }
