@@ -2,6 +2,7 @@
 
 A collaborative drawing app developed using web sockets
 
+Share the URL with your friends to collaborate
 
 ## Technologies Used
 
